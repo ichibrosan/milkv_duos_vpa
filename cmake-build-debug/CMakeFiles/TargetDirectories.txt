@@ -1,0 +1,3 @@
+/home/doug/CLionProjects/milkv-duos-vpa/cmake-build-debug/CMakeFiles/milkv_duos_vpa.dir
+/home/doug/CLionProjects/milkv-duos-vpa/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/doug/CLionProjects/milkv-duos-vpa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
