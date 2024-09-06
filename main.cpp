@@ -1,6 +1,15 @@
 #include <iostream>
+#include "CmilkV.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+
+int main(int argc,char **argv) {
+
+    CmilkV * pDUO = new CmilkV();
+
+    pDUO->identify();
+
+    delete pDUO;
+
     return 0;
 }

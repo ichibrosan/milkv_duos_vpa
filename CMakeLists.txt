@@ -3,4 +3,6 @@ project(milkv_duos_vpa)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(milkv_duos_vpa main.cpp)
+add_executable(milkv_duos_vpa main.cpp
+        CmilkV.cpp
+        CmilkV.h)
