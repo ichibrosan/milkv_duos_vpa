@@ -13,12 +13,18 @@ class CmilkV {
     std::string m_std_str_serial_no;
     std::string m_std_str_support;
 
-    std::string m_std_str_usb_ipv4_addr;
-    std::string m_std_str_rs232_iface;
+    FILE * m_fd_rs232;
 
 public:
+
+    std::string m_std_str_usb_ipv4_addr;
+
+    std::string m_std_str_rs232_iface;
+    bool        m_bool_rs232_open;
+
     CmilkV();
     void identify();
+    bool probe_usb();
     ~CmilkV();
 };
 
