@@ -12,6 +12,10 @@ class CmilkV {
     std::string m_std_str_revision;
     std::string m_std_str_serial_no;
     std::string m_std_str_support;
+
+    std::string m_std_str_usb_ipv4_addr;
+    std::string m_std_str_rs232_iface;
+
 public:
     CmilkV();
     void identify();
